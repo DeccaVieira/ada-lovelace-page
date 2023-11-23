@@ -12739,6 +12739,8 @@
   }
   .u-overlap .u-header.u-sticky {
     position: fixed;
+    top: 0;
+    left: 0;
   }
   .u-overlap.u-overlap-transparent .u-header {
     background-color: transparent !important;
@@ -12789,6 +12791,10 @@
     .u-sidebar {
       flex: 1;
     }
+  }
+  .u-header-shadow {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #2c2933;
   }
   .u-sidebar .u-form-group:not(:last-child) {
     margin-bottom: 10px;
@@ -18269,7 +18275,8 @@
   [class*="u-gray-"].u-body,
   .u-white.u-body,
   .u-black.u-body {
-    background-image: none;
+    background-image: url("../img/algoritmo.jpg");
+    opacity: 0.2;
   }
   .u-button-style[class*="u-custom-color-"],
   .u-button-style[class*="u-palette-"],
@@ -18974,6 +18981,35 @@
   .pswp__button:active {
     outline: none;
     opacity: 0.9;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .width-standard {
+    width: 100vw;
+    height: 6.5rem;
+  }
+ .space {
+  padding: 2rem;
+ }
+ .color-button {
+  background-color: #280242 !important;
+ }
+ 
+  .align {
+    text-align: justify;
+  }
+  .justify {
+    display: flex;
+    justify-content: space-around;
   }
   .pswp__button::-moz-focus-inner {
     padding: 0;

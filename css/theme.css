@@ -5509,9 +5509,9 @@
   .u-grey-5.u-sidenav:before,
   .u-container-layout.u-container-layout.u-grey-5:before,
   .u-table-alt-grey-5 tr:nth-child(even) {
-    color: #111111;
-    background-color: #f2f2f2;
-  }
+    color: #ffffff;
+    background-image: url("../img/algoritmo.jpg");
+    background-size: 50vh auto ;}
   .u-input.u-grey-5,
   .u-field-input.u-grey-5,
   .u-button-style.u-grey-5,
@@ -15185,6 +15185,19 @@
   a.u-button-style.u-text-black[class*="u-border-"] {
     color: #000000 !important;
   }
+  .u-text-pink {
+    color: #D52469 !important;
+    font-size: 25px !important; 
+  }
+  .u-text-letter {
+    color: #D52469 !important;
+    font-size: 18px !important; 
+  }
+  .bold {
+    font-size: 33px !important;
+    font-weight: 900 !important;
+ 
+  }
   a.u-button-style.u-text-black:hover,
   a.u-button-style.u-text-black[class*="u-border-"]:hover,
   a.u-button-style.u-text-black:focus,
@@ -16675,32 +16688,35 @@
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
+    opacity: 0.3;
+
   }
   
   .u-section-1 .u-image-1 {
-    width: 746px;
-    height: 746px;
+    width: 500px;
+    height: 500px;
     --animation-custom_in-translate_x: 0px;
     --animation-custom_in-translate_y: -300px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 0.5;
-    margin: -545px calc(((100% - 1140px) / 2)) 0 auto;
+    margin: -510px calc(((100% - 1140px) / 2)) 0 auto;
+
   }
   
   .u-section-1 .u-group-1 {
-    width: 514px;
+    width: 36rem;
     min-height: 473px;
-    background-image: none;
+    background-color: #474a51;
     --animation-custom_in-translate_x: -300px;
     --animation-custom_in-translate_y: 0px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
     height: auto;
-    margin: -367px auto 60px calc(((100% - 1140px) / 2) + -12px);
+    margin: -507px auto 60px calc(((100% - 1340px) / 2) + -12px);
   }
-  
+
   .u-section-1 .u-container-layout-1 {
     padding: 30px;
   }
